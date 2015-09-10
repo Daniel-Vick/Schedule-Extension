@@ -1,0 +1,759 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+
+    <title>Schedules</title>
+
+    <script src="js/jquery-1.11.3.min.js"></script>
+
+    <link rel="stylesheet" href="popup.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="js/bootstrap.js"></script>
+    
+
+
+
+  </head>
+  <body>
+    <div class="container">
+      <h2>Dynamic Schedules</h2>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">Schedule 1</a></li>
+        <li><a data-toggle="tab" href="#menu1">Schedule 2</a></li>
+        <li><a data-toggle="tab" href="#menu2">Schedule 3</a></li>
+        <li><a data-toggle="tab" href="#menu3">Schedule 4</a></li>
+      </ul>
+
+      <div class="tab-content">
+       <div id="home" class="tab-pane fade in active">
+          <div class="schedule1"> 
+            <row>
+      <div class="col-md-2">          
+        <table class="table table-condensed" style="border-collapse:collapse;">
+
+            <thead>
+                <tr>
+                    <th>Monday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H0" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H1" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H2" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H3" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H4" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H5" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H6" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H7" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H8" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H9" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H10" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H11" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D0H12" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <div class="col-md-2">          
+            <table class="table table-condensed" style="border-collapse:collapse;" id="Tuesday">
+
+                <thead>
+                    <tr>
+                        <th>Tuesday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr data-toggle="collapse" data-target="#D1H0" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D1H1" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D1H2" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D1H3" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D1H4" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D1H5" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D1H6" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+
+        <div class="col-md-2">          
+            <table class="table table-condensed" style="border-collapse:collapse;">
+
+                <thead>
+                    <tr>
+                        <th>Wednesday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr data-toggle="collapse" data-target="#D2H0" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D2H1" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D2H2" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D2H3" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D2H4" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D2H5" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D2H6" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D2H7" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D2H8" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D2H9" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D2H10" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D2H11" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D2H12" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            </table>
+            </div>
+
+            <div class="col-md-2">          
+            <table class="table table-condensed" style="border-collapse:collapse;" id="Thursday">
+
+                <thead>
+                    <tr>
+                        <th>Thursday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr data-toggle="collapse" data-target="#D3H0" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D3H1" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D3H2" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D3H3" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D3H4" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D3H5" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D3H6" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            </table>
+            </div>
+
+            <div class="col-md-2">          
+            <table class="table table-condensed" style="border-collapse:collapse;">
+
+                <thead>
+                    <tr>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                <tr data-toggle="collapse" data-target="#D4H0" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D4H1" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D4H2" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D4H3" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D4H4" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D4H5" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D4H6" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D4H7" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D4H8" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D4H9" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D4H10" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D4H11" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            <tbody>
+                <tr data-toggle="collapse" data-target="#D4H12" class="accordion-toggle">
+                    <td>CSE12</td>
+                </tr>
+                <tr >
+                    <td colspan="2" class="hiddenRow"><div class="accordian-body collapse" id="demo1"> Alvarado </div> </td>
+                </tr>
+            </tbody>
+            </table>
+        </div>
+        
+
+              
+
+            </row>
+          </div>
+        </div>
+        <script src="js/main.js"></script>
+        <div id="menu1" class="tab-pane fade">
+          <div class="schedule2"> 
+            <row>
+              <div class="col-md-2 col-md-offset-1">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+              <div class="col-md-2">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+              <div class="col-md-2">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+              <div class="col-md-2">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+              <div class="col-md-2">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+
+            </row>
+          </div>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <div class="schedule3"> 
+            <row>
+              <div class="col-md-2 col-md-offset-1">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+              <div class="col-md-2">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+              <div class="col-md-2">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+              <div class="col-md-2">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+              <div class="col-md-2">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+
+            </row>
+          </div>
+        </div>
+        <div id="menu3" class="tab-pane fade">
+          <div class="schedule4"> 
+            <row>
+              <div class="col-md-2 col-md-offset-1">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+              <div class="col-md-2">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+              <div class="col-md-2">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+              <div class="col-md-2">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+              <div class="col-md-2">
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+                <div class="box"><p>CSE 12</p><p>Alvarado</p></div>
+              </div>
+
+            </row>
+          </div>
+        </div>
+       </div>
+    </div>
+  </body>
+</html>

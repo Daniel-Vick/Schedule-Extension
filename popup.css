@@ -1,0 +1,80 @@
+.schedule1 {
+	margin-top:10px;
+}
+
+.schedule2 {
+	margin-top:10px;
+}
+.schedule3 {
+	margin-top:10px;
+}
+.schedule4 {
+	margin-top:10px;
+}
+
+.schedule1 .box {
+	color:#FFFFFF;
+	background-color:#445599;
+	text-align:center;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:0px;
+	margin-bottom:0px;
+
+
+}
+
+.schedule2 .box {
+	color:#FFFFFF;
+	background-color:#775544;
+	text-align:center;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:0px;
+	margin-bottom:0px;
+
+
+}
+
+tbody #Tuesday {
+	height: 800px;
+}
+
+tbody {
+	background-color:#bbbbcc;
+	color:#333333;
+}
+
+body {
+	background-color:#444444;
+}
+
+.schedule3 .box {
+	color:#FFFFFF;
+	background-color:#5465ff;
+	text-align:center;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:0px;
+	margin-bottom:0px;
+
+
+}
+
+.schedule4 .box {
+	color:#FFFFFF;
+	background-color:#66dd22;
+	text-align:center;
+	margin-top:5px;
+	margin-left:5px;
+	margin-right:0px;
+	margin-bottom:0px;
+
+
+}
+
+.box p {
+	margin-bottom:-3px;
+	margin-top:-3px;
+
+}
